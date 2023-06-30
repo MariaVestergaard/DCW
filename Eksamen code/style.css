@@ -1,0 +1,759 @@
+
+
+/*generelle ting ens for alle sider ting*/
+
+body{
+    background-color: rgb(24, 24, 27);
+    margin: 0;
+width: 320px;
+height: 240px;
+
+}
+
+header{
+    background-color: rgb(15, 15, 23);
+    margin: 0;
+}
+
+header img{
+    margin: 5px;
+  
+}
+
+h1{
+    margin-top: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/*MENU SCREEN CSS*/
+
+
+.layout_menu{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+            }
+
+/* Drift Menu */
+
+.drift_menu{
+    background-color: rgb(15, 15, 23);
+    width: 90px;
+    display: grid;
+    justify-self: right;
+    justify-items: center;
+    margin-bottom: 5px;
+    margin-right: 5px;
+    
+}
+
+.drift_menu p{
+    background-color: rgb(9, 9, 14);
+    color: white;
+  margin: 0;
+  text-align: center;
+width: 90px;
+font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.drift_menu img{ 
+    margin-top: 10px;
+    margin-bottom: 10px;}
+
+
+/* Diagram Menu */
+.diagram_menu {
+    background-color: rgb(15, 15, 23);
+    width: 90px;
+    display: grid;
+    justify-self: left;
+    justify-items: center;
+
+margin-bottom: 5px;
+margin-left: 5px;
+
+}
+
+.diagram_menu p{
+    background-color: rgb(9, 9, 14);
+    color: white;
+    margin: 0;
+    width: 90px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.diagram_menu img{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/* Information Menu */
+.information_menu {
+    background-color: rgb(15, 15, 23);
+    width: 90px;
+    display: grid;
+    justify-self: right;
+    justify-items: center;
+margin-top: 5px;
+margin-right: 5px;
+
+}
+
+.information_menu p{
+    background-color: rgb(9, 9, 14);
+    color: white;
+    margin: 0;
+    width: 90px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.information_menu img{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/* Indstillinger Menu */
+.indstillinger_menu {
+    background-color: rgb(15, 15, 23);
+    width: 90px;
+    display: grid;
+    justify-self: left;
+    justify-items: center;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+.indstillinger_menu p{
+    background-color: rgb(9, 9, 14);
+    color: white;
+    margin: 0;
+    width: 90px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.indstillinger_menu img{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/*INFO SCREEN CSS*/ 
+
+
+
+/* Layout Info*/
+
+
+/*Top row info*/
+.top_row_info{
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+
+ 
+
+}
+
+.vandpumpe{
+    background-color: rgb(193, 193, 208);
+border: solid;
+border-color: rgb(26, 26, 28);
+
+
+    display: flex;
+  
+  
+
+  display: grid;
+  grid-template-columns: 1fr;
+ 
+}
+
+.celle{
+    background-color: rgb(193, 193, 208);
+border: solid;
+border-color: rgb(26, 26, 28);
+   
+    display: flex;
+  
+  
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.blødgøring_tilbage{
+    background-color: rgb(193, 193, 208);
+    border: solid;
+    border-color: rgb(26, 26, 28);
+
+
+    display: flex;
+ 
+  
+
+  display: grid;
+  grid-template-columns: 1fr;
+    
+}
+
+.brine{
+    background-color: rgb(193, 193, 208);
+border: solid;
+border-color: rgb(26, 26, 28);
+
+    display: flex;
+    
+   
+
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.cathox{
+    background-color: rgb(193, 193, 208);
+    border: solid;
+    border-color: rgb(26, 26, 28);
+
+
+    display: flex;
+   
+   
+
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+/*Bot row Info*/
+
+.bot_row_info{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+  
+  
+}
+
+.bot_top_row_info{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+}
+
+.bot_bot_row_info{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+}
+
+.vand_forbrug{
+   
+border: solid;
+border-color: rgb(26, 26, 28);
+
+
+    display: flex;
+   
+    display: grid;
+ 
+
+}
+
+.klorid_vand{
+    border: solid;
+    border-color: rgb(26, 26, 28);
+
+
+    display: flex;
+ 
+    display: grid;
+   
+
+}
+
+.forbrug{
+    border: solid;
+border-color: rgb(26, 26, 28);
+
+    display: flex;
+  
+  
+
+    display: grid;
+
+}
+
+
+
+/*Tekst*/
+
+.overskrift_top_info{
+    font-weight: bolder;
+
+margin-top: 0;
+
+text-align: center;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+
+
+.overskrift_bot_info{
+    font-weight: bolder;
+    color: white;
+    background-color: rgb(15, 15, 23);
+    margin-top: 0;
+    font-family: Arial, Helvetica, sans-serif;
+
+
+
+}
+
+
+.underskrift_data_info{
+    background-color: rgb(237, 237, 241);
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+
+
+
+.underskrift_tekst_info{
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/*Button Info screen*/
+
+.button_reset_info{
+    background-color: rgb(194, 196, 87);
+    font-weight: bolder;
+    background-size: contain;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+/*Drift Screen*/ 
+
+
+
+/*layout drift*/
+
+.layout_drift{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+
+/* Øvre skærm layout*/ 
+
+
+.top_screen_drift{
+    display: grid;
+    grid-template-columns:1fr 1fr;
+    width: 320px;
+    margin: 0;
+}
+
+.screen_top_left_drift{
+    background-color: rgb(24, 24, 27);
+    border: solid;
+    border-color: rgb(26, 26, 28);
+    width: 160px;
+    display: grid;
+    justify-content: center;
+}
+
+.screen_top_right_drift{
+    background-color: rgb(21, 21, 24);
+    border: solid;
+    border-color: rgb(26, 26, 28);
+    width: 160px;
+    display: grid;
+    justify-content: center;
+    justify-self: start;
+}
+
+/* Nedre skærm layout*/ 
+
+.bot_screen_drift{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 320;
+}
+
+.screen_bot_left_drift{
+    background-color: rgb(24, 24, 27);
+    border: solid;
+    border-color: rgb(26, 26, 28);
+    width: 160px;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 1fr 1fr;
+}
+
+.sceen_bot_right_drift{
+    background-color: rgb(24, 24, 27);
+    border: solid;
+    border-color: rgb(26, 26, 28);
+    width: 160px;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 1fr 1fr;
+}
+
+
+/*Drift graf*/ 
+
+/* Venstre side drift graf*/
+.multi_graph_v_drift{
+    width: 75px;
+    height: 37.5px;
+    position: relative;
+    color: #fff;
+    font-size: 22px;
+    font-weight: 600;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    overflow: hidden;
+    box-sizing : border-box;
+     &:before{
+      content: '';
+      width: 75px;
+      height: 37.5px;
+      border:12.5px solid rgba(0,0,0,.15);
+      border-bottom: none;
+      position: absolute;
+      box-sizing : border-box;
+      transform-origin: 50%  0%;
+      border-radius: 75px 75px 0 0 ;
+      left: 0;
+      top: 0;
+
+      
+    }
+    .graph{
+      width: 75px;
+      height: 37.5px;
+      border:12.5px solid var(--fill);
+      border-top: none;
+      position: absolute;
+      transform-origin :50%  0% 0;
+      border-radius: 0 0 75px 75px ;
+      left: 0;
+      top: 100%;
+      z-index: 5;
+      animation : 1s fillGraphAnimation ease-in;
+      transform: rotate( calc( 1deg * ( var(--percentage) * 1.8 ) ) );
+      box-sizing : border-box;
+      cursor: pointer;
+      &:after{
+        // content: attr(data-name) ;
+        content: attr(data-name) ' ' counter(varible) '%';
+        counter-reset: varible var(--percentage);
+        background: var(--fill) ;
+        box-sizing : border-box;
+        border-radius : 2px;
+        color: #fff;
+        font-weight: 200;
+        font-size: 12px;
+        height: 20px;
+        padding: 3px 5px;
+        top: 0px;
+        position: absolute;
+        left: 0;
+        transform: rotate(calc( -1deg * var(--percentage) * 1.8 ))  translate(-30px , 0px);
+        transition:0.2s ease-in;
+        transform-origin: 0 50% 0;
+        opacity: 0;
+      }
+      &:hover{
+          opacity: 0.8;
+        &:after{
+          opacity: 1;
+          left: 30px;
+        }
+      }
+    }
+  }
+  
+  
+  
+  @keyframes fillAnimation{
+    0%{transform : rotate(-45deg);}
+    50%{transform: rotate(135deg);}
+  }
+  
+  @keyframes fillGraphAnimation{
+    0%{transform: rotate(0deg);}
+    50%{transform: rotate(180deg);}
+  }
+
+/* Højre side drift graf*/ 
+
+.multi_graph_h_drift{
+    width: 75px;
+    height: 37.5px;
+    position: relative;
+    color: #fff;
+    font-size: 22px;
+    font-weight: 600;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    overflow: hidden;
+    box-sizing : border-box;
+     &:before{
+      content: '';
+      width: 75px;
+      height: 37.5px;
+      border:12.5x solid rgba(0,0,0,.15);
+      border-bottom: none;
+      position: absolute;
+      box-sizing : border-box;
+      transform-origin: 50%  0%;
+      border-radius: 75px 75px 0 0 ;
+      left: 0;
+      top: 0;
+
+      
+    }
+    .graph{
+      width: 75px;
+      height: 37.5px;
+      border:12.5px solid var(--fill);
+      border-top: none;
+      position: absolute;
+      transform-origin :50%  0% 0;
+      border-radius: 0 0 75px 75px ;
+      left: 0;
+      top: 100%;
+      z-index: 5;
+      animation : 1s fillGraphAnimation ease-in;
+      transform: rotate( calc( 1deg * ( var(--percentage) * 1.8 ) ) );
+      box-sizing : border-box;
+      cursor: pointer;
+      &:after{
+        // content: attr(data-name) ;
+        content: attr(data-name) ' ' counter(varible) '%';
+        counter-reset: varible var(--percentage);
+        background: var(--fill) ;
+        box-sizing : border-box;
+        border-radius : 2px;
+        color: #fff;
+        font-weight: 200;
+        font-size: 12px;
+        height: 20px;
+        padding: 3px 5px;
+        top: 0px;
+        position: absolute;
+        left: 0;
+        transform: rotate(calc( -1deg * var(--percentage) * 1.8 ))  translate(-30px , 0px);
+        transition:0.2s ease-in;
+        transform-origin: 0 50% 0;
+        opacity: 0;
+      }
+      &:hover{
+          opacity: 0.8;
+        &:after{
+          opacity: 1;
+          left: 30px;
+        }
+      }
+    }
+  }
+  
+  
+  
+  @keyframes fillAnimation{
+    0%{transform : rotate(-45deg);}
+    50%{transform: rotate(135deg);}
+  }
+  
+  @keyframes fillGraphAnimation{
+    0%{transform: rotate(0deg);}
+    50%{transform: rotate(180deg);}
+  }
+
+
+/*Drift Start stop button*/ 
+
+.but_start_v_drift{
+    background-color:rgb(20, 132, 30);
+    border-style: none;
+    font-size: 1rem;
+    color:rgb(241, 241, 241);
+    border-end-start-radius: 30px;
+    border-start-start-radius: 30px;
+    padding: 10px;
+    padding-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.but_stop_v_drift{
+    background-color: rgb(155, 23, 23);
+    border-style: none;
+    font-size: 1rem;
+    color:rgb(241, 241, 241);
+    border-end-end-radius: 30px;
+    border-start-end-radius: 30px;
+    padding: 10px;
+    padding-right: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;}
+
+    .but_start_h_drift{
+        background-color:rgb(20, 132, 30);
+        border-style: none;
+        font-size: 1rem;
+        color:rgb(241, 241, 241);
+        border-end-start-radius: 30px;
+        border-start-start-radius: 30px;
+        padding: 10px;
+        padding-left: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+    }
+    
+    .but_stop_h_drift{
+        background-color: rgb(155, 23, 23);
+        border-style: none;
+        font-size: 1rem;
+        color:rgb(241, 241, 241);
+        border-end-end-radius: 30px;
+        border-start-end-radius: 30px;
+        padding: 10px;
+        padding-right: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;}
+
+
+       /* Hambuger Menu knap*/
+
+
+       @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;1,400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header{
+    border-bottom: 1px solid #ffffff;
+    background-color: rgb(24, 24, 27);
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 1.5rem;
+}
+
+.hamburger {
+    display: none;
+}
+
+.bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: #ffffff;
+}
+
+.nav-menu {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-item {
+    margin-left: 5rem;
+}
+
+.nav-link{
+    font-size: 1.6rem;
+    font-weight: 400;
+    color: #a7a9ab;
+}
+
+.nav-link:hover{
+    color: #ffffff;
+}
+
+.nav-logo {
+    font-size: 2.1rem;
+    font-weight: 500;
+    color: #ffffff;
+}
+
+@media only screen and (max-width: 320px) {
+    .nav-menu {
+        position: fixed;
+        left: -100%;
+        top: 5rem;
+        flex-direction: column;
+        background-color: rgb(24, 24, 27);
+        width: 100%;
+        border-radius: 10px;
+        text-align: center;
+        transition: 0.3s;
+        box-shadow:
+            0 10px 27px rgba(0, 0, 0, 0.05);
+    }
+
+    .nav-menu.active {
+        left: 0;
+    }
+
+    .nav-item {
+        margin: 2.5rem 0;
+    }
+
+    .hamburger {
+        display: block;
+        cursor: pointer;
+    }
+
+    .hamburger.active .bar:nth-child(2) {
+        opacity: 0;
+    }
+
+    .hamburger.active .bar:nth-child(1) {
+        -webkit-transform: translateY(8px) rotate(45deg);
+        transform: translateY(8px) rotate(45deg);
+    }
+
+    .hamburger.active .bar:nth-child(3) {
+        -webkit-transform: translateY(-8px) rotate(-45deg);
+        transform: translateY(-8px) rotate(-45deg);
+    }
+}
+
+
+       
+
